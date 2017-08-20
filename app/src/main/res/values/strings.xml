@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SaleProgressView</string>
+    <string name="nearOverText">即将售罄</string>
+    <string name="overText">已售罄</string>
+</resources>

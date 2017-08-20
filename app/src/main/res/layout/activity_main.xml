@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.zhh.saleprocess.SaleProgressView
+        android:id="@+id/spv"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        app:nearOverText="@string/nearOverText"
+        app:overText="@string/overText"
+        />
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spv"
+        android:layout_marginTop="50dp"
+        android:max="100" />
+
+</RelativeLayout>
